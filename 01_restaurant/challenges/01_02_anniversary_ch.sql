@@ -5,3 +5,9 @@
 -- they plan to bring in their party.
 
 -- Hint: SQLite offers the INTEGER and REAL datatypes
+create table an_party(
+customerid integer,
+noofpeople integer
+);
+
+select * from an_party;
